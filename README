@@ -1,3 +1,9 @@
 The object here is to create a full browser extension that displays a drop down and loads in coins.
 
 "coins" was too hacky, this is the version I want.
+
+This tutorial looks perfect:
+
+https://addons.mozilla.org/en-US/developers/docs/sdk/latest/dev-guide/tutorials/modifying-web-pages-tab.html
+
+I just need to download cfx and start module development then everything looks gravy
