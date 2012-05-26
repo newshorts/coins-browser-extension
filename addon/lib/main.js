@@ -14,7 +14,7 @@ var widget = widgets.Widget({
     contentURL: 'http://www.mozilla.org/favicon.ico',
     onClick: function() {
         tabs.activeTab.attach({
-            contentScriptFile: [self.data.url('jquery.js'), self.data.url('easel.js'), self.data.url('coins.js'), self.data.url('app.js')]
+            contentScriptFile: [self.data.url('easel.js'), self.data.url('jquery.js'), self.data.url('coins.js'), self.data.url('app.js')]
         });
     }
 });

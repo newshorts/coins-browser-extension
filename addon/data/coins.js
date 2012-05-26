@@ -6,10 +6,12 @@ var Coins = function() {
     var bmpAnim;						// The animated sparkle template to clone
     var fpsLabel;
 
-    this.init = function(id) {
-            
+    this.init = function() {
+            console.log('able to init');
             // create a new stage and point it at our canvas:
-            canvas = document.getElementById(id);
+            canvas = document.getElementById('coins-canvas');
+            console.log(canvas);
+            console.log(Stage);
             stage = new Stage(canvas);
             
             // attach mouse handlers directly to the source canvas.
@@ -39,7 +41,6 @@ var Coins = function() {
             // start the tick and point it at the window so we can do some work before updating the stage:
             Ticker.setFPS(30);
             Ticker.addListener(window);
-            
     }
 
 
