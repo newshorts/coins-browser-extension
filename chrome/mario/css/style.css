@@ -1,0 +1,36 @@
+/* 
+    Document   : style
+    Created on : May 27, 2012, 11:58:45 AM
+    Author     : Mike Newell
+    Description:
+        Loaded in for content scripting, styles should only apply to newly
+        created elements by app.js
+
+        Header
+*/
+
+root { 
+    display: block;
+}
+
+/*
+    HEADER
+*/
+
+#pageHeader {
+    background-color: #FF6600;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+/*
+    FONTS
+*/
+
+/*
+    MISC
+*/
+

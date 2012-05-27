@@ -1,0 +1,23 @@
+{
+  "name": "RSS Fetcher",
+  "version": "1.0",
+  
+  "description": "My first Chrome extension.",
+  "icons":  { 
+                "16": "images/icon.png",
+                "48": "images/48.png",
+                "128": "images/128.png"
+            },
+            
+  "homepage_url": "http://iwearshorts.com/",
+  "background_page": "background.html",
+  "permissions": [
+      "http://base_rss_url_here.com/*"
+  ],
+  
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "[website rss name here] fetcher",
+    "popup": "popup.html"
+  }
+}

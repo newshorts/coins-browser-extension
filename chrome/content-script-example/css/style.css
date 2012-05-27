@@ -1,0 +1,21 @@
+/* 
+    Document   : style
+    Created on : May 27, 2012, 11:58:45 AM
+    Author     : Mike Newell
+    Description:
+        Loaded in for content scripting, styles should only apply to newly
+        created elements by app.js
+*/
+
+root { 
+    display: block;
+}
+
+#test {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
