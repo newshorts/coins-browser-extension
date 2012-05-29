@@ -15,6 +15,7 @@ var App = function() {
         links.on('click', function(evt) {
             evt.preventDefault();
             var dest = evt.currentTarget.href;
+            console.debug(dest);
         });
     }
     
