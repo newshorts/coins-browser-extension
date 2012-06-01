@@ -3,6 +3,7 @@
     "version": "0.2",
 
     "description": "Inject a content script, reload the page into an iframe.",
+    
     "icons": { 
         "16" : "images/icon.png",
         "48" : "images/48.png",
@@ -25,8 +26,18 @@
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
-            "css": ["css/style.css"],
+            "css": ["css/style.css", "css/header.css"],
             "js": ["js/jquery.js", "js/app.js"]
         }
+    ],
+    
+    "web_accessible_resources": [
+        "images/header/mario-head.png",
+        "images/header/off-button.png",
+        "images/header/on-button.png",
+        "images/header/on-placeholder.png",
+        "images/header/score-placeholder.png",
+        "images/header/top-bar-repeat.jpg",
+        "images/header/top-bar.png"
     ]
 }

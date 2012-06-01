@@ -1,0 +1,78 @@
+/* 
+    Document   : mockup
+    Created on : May 30, 2012, 6:42:54 PM
+    Author     : mike_newell
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#coins-spacer {
+    display: block;
+    height: 150px;
+    width: 100%;
+    background-color: transparent;
+}
+
+#coins-header-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: scroll repeat-x transparent;
+    
+    -moz-box-shadow:    3px 3px 5px 6px #333;
+    -webkit-box-shadow: 3px 3px 5px 6px #333;
+    box-shadow:         3px 3px 5px 6px #333;
+}
+
+#coins-header {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    top: 0;
+    left: 0;
+    background: scroll no-repeat transparent;
+}
+
+#coins-mario-head {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+
+#coins-on-off-button {
+    position: absolute;
+    top: 50px;
+    left: 240px;
+    width: 129px;
+    height: 69px;
+    display: block;
+}
+
+#coins-on-off-text {
+    position: absolute;
+    top: 70px;
+    left: 394px;
+    width: 45px;
+    height: 30px;
+}
+
+#coins-score {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 392px;
+    height: 77px;
+    background: scroll no-repeat transparent;
+}
+
